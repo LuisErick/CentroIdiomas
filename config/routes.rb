@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'security/index'
+
+  get 'security/login'
+
+  get 'security/logout'
+
   resources :levels
 
   resources :scores
