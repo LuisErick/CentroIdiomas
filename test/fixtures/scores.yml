@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  score_type_id: 1
+  matriculation_course_id: 1
+  value: 1.5
+  date: 2014-05-02
+
+two:
+  score_type_id: 1
+  matriculation_course_id: 1
+  value: 1.5
+  date: 2014-05-02

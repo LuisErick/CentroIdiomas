@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @matriculation_course.level_id %>
+</p>
+
+<p>
+  <strong>Package:</strong>
+  <%= @matriculation_course.package_id %>
+</p>
+
+<p>
+  <strong>Final grade:</strong>
+  <%= @matriculation_course.final_grade %>
+</p>
+
+<%= link_to 'Edit', edit_matriculation_course_path(@matriculation_course) %> |
+<%= link_to 'Back', matriculation_courses_path %>

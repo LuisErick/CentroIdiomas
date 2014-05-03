@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Matriculation:</strong>
+  <%= @matriculation_exam.matriculation_id %>
+</p>
+
+<p>
+  <strong>Teacher:</strong>
+  <%= @matriculation_exam.teacher_id %>
+</p>
+
+<p>
+  <strong>Institution:</strong>
+  <%= @matriculation_exam.institution %>
+</p>
+
+<%= link_to 'Edit', edit_matriculation_exam_path(@matriculation_exam) %> |
+<%= link_to 'Back', matriculation_exams_path %>

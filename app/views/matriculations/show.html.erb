@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @matriculation.language_id %>
+</p>
+
+<p>
+  <strong>Student:</strong>
+  <%= @matriculation.student_id %>
+</p>
+
+<p>
+  <strong>Administrative:</strong>
+  <%= @matriculation.administrative_id %>
+</p>
+
+<p>
+  <strong>Course type:</strong>
+  <%= @matriculation.course_type_id %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @matriculation.date %>
+</p>
+
+<%= link_to 'Edit', edit_matriculation_path(@matriculation) %> |
+<%= link_to 'Back', matriculations_path %>

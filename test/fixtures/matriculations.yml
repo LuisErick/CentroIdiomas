@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  language_id: 1
+  student_id: 1
+  administrative_id: 1
+  course_type_id: 1
+  date: 2014-05-02
+
+two:
+  language_id: 1
+  student_id: 1
+  administrative_id: 1
+  course_type_id: 1
+  date: 2014-05-02

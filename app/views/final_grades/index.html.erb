@@ -1,0 +1,29 @@
+<h1>Listing final_grades</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Matriculation</th>
+      <th>Value</th>
+      <th>State</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @final_grades.each do |final_grade| %>
+      <tr>
+        <td><%= final_grade.matriculation_id %></td>
+        <td><%= final_grade.value %></td>
+        <td><%= final_grade.state %></td>
+        <td><%= link_to 'Show', final_grade %></td>
+        <td><%= link_to 'Edit', edit_final_grade_path(final_grade) %></td>
+        <td><%= link_to 'Destroy', final_grade, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Final grade', new_final_grade_path %>

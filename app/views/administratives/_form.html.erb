@@ -1,0 +1,21 @@
+<%= form_for(@administrative) do |f| %>
+  <% if @administrative.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@administrative.errors.count, "error") %> prohibited this administrative from being saved:</h2>
+
+      <ul>
+      <% @administrative.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :person_id %><br>
+    <%= f.number_field :person_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Student:</strong>
+  <%= @unica_student.student_id %>
+</p>
+
+<p>
+  <strong>Faculty:</strong>
+  <%= @unica_student.faculty_id %>
+</p>
+
+<p>
+  <strong>Grade:</strong>
+  <%= @unica_student.grade_id %>
+</p>
+
+<%= link_to 'Edit', edit_unica_student_path(@unica_student) %> |
+<%= link_to 'Back', unica_students_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  days: MyString
+  numberdays: 1
+  arrival_time: 2014-05-02 20:36:40
+  desmissal_time: 2014-05-02 20:36:40
+
+two:
+  days: MyString
+  numberdays: 1
+  arrival_time: 2014-05-02 20:36:40
+  desmissal_time: 2014-05-02 20:36:40

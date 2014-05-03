@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Days:</strong>
+  <%= @schedule.days %>
+</p>
+
+<p>
+  <strong>Numberdays:</strong>
+  <%= @schedule.numberdays %>
+</p>
+
+<p>
+  <strong>Arrival time:</strong>
+  <%= @schedule.arrival_time %>
+</p>
+
+<p>
+  <strong>Desmissal time:</strong>
+  <%= @schedule.desmissal_time %>
+</p>
+
+<%= link_to 'Edit', edit_schedule_path(@schedule) %> |
+<%= link_to 'Back', schedules_path %>

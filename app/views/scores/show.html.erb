@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Score type:</strong>
+  <%= @score.score_type_id %>
+</p>
+
+<p>
+  <strong>Matriculation course:</strong>
+  <%= @score.matriculation_course_id %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @score.value %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @score.date %>
+</p>
+
+<%= link_to 'Edit', edit_score_path(@score) %> |
+<%= link_to 'Back', scores_path %>

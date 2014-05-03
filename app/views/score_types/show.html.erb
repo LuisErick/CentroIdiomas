@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Noun:</strong>
+  <%= @score_type.noun %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @score_type.description %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @score_type.weight %>
+</p>
+
+<%= link_to 'Edit', edit_score_type_path(@score_type) %> |
+<%= link_to 'Back', score_types_path %>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Matriculation:</strong>
+  <%= @final_grade.matriculation_id %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @final_grade.value %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @final_grade.state %>
+</p>
+
+<%= link_to 'Edit', edit_final_grade_path(@final_grade) %> |
+<%= link_to 'Back', final_grades_path %>
