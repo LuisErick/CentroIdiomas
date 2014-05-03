@@ -7,6 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+<% if is_loged %>
+<div id='logout'><%= link_to 'Logout', controller: 'security', action: 'logout' %></div>
+<%end%>
+</header>
 
 <%= yield %>
 

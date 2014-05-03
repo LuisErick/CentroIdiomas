@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'profile/index'
+
+  get 'security/index'
+
+  post 'security/login'
+
+  get 'security/logout'
+
   get 'welcome/index'
 
   resources :levels
