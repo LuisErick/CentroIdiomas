@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'tasks/index'
+
   get 'profile/index'
 
   get 'security/index'
