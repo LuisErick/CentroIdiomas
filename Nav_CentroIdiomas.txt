@@ -5,13 +5,22 @@ Se está poniendo en los campos, subcampos, y subdivisiones, como si fuera algui
 ----------------------------------------
 ----------------------------------------
  (>*)SOY LUISERICK! lo que pondré estará antecedido por un "(>*)" !.
+ (III) Hey, soy Iris.
 
 Campos del Nav
 -Inicio
-(>*)-Comienzo de clases disponibles (Una lista de fechas cercanas del inicio de nuevos cursos)
+(>*)-Comienzo de clases disponibles (Una lista de fechas cercanas del inicio de nuevos cursos -> Cursos, horarios, costos, fecha_inicio, fecha_fin)
 
 (>*)
 -Institucion (algo asi como quienes somos, información del centro de idiomas, sedes, nuestra visión, misión, servicios pre-grado, post-grado yo que sé toda la informacion que necesite el "visitador") (ESTO SIN LOGEARSE)
+
+(III) -Cursos 
+		-Inglés comunicativo	
+		-Inglés.. (inserte nombre del otro tipo que no me acuerdo xd)
+		-Otros idiomas
+			-Francés
+			-Another(?)
+
 -Tareas
 	-Matrículas
 		-Alumno nuevo
@@ -34,6 +43,7 @@ Campos del Nav
 	-Mis aulas -> Encada uno vera los alumnos y su desempeño
 	-Mis alumnos -> En cada uno verá las notas de los alumnos
 	-Mis asistencias -> Incluye notas y sueldos que le correspoden.
+	(III) -Mis horarios -> Un documento que especifique el día y el intervalo de tiempo semanalmente en que es dictado su(s) curso(s) a cargo. 
 (>*)-Mis Libros -> las secretaria nos dijo, que no hay libros establecidos, pues cada profesor trabaja con el que mejor le paresca. Habrá una opcion para subir el pdf del libro con el que trabaja y asi poder compartirlo con sus alumnos dependiendo que aula tenga.
     
 -Alumnos
@@ -47,7 +57,10 @@ Campos del Nav
 (>*)-¿recibo algún certificado?
 (>*)-¿Qué requisitos debo tener para poder matricularme?
 (>*)-¿Cuál es el método de evaluación?
-(>*)-¿Existe un limite de faltas?¿Se peuden justificar?
+(>*)-¿Existe un limite de faltas?¿Se pueden justificar?
+(III)- ¿Puedo matricularme en más de un idioma a la vez?
+(III)- ¿Qué formas de pago tienen?
+(III)- ¿Obtengo algún tipo de descuento si es que me inscribo con alguna(s) otra(s) persona(s)?
     ... no sé me acurre nada mas ...
 
 --------------------------------------------
