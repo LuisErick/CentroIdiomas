@@ -1,0 +1,44 @@
+----------------------------------------
+Aclaración
+----------------------------------------
+Se está poniendo en los campos, subcampos, y subdivisiones, como si fuera alguien con los máximos permisos, luego ya con código estos permisos se vana  air discriminando, se quitarn campos para ciertos usaurios y así.. pero primero se hace para alguien de permisos máximos.
+----------------------------------------
+----------------------------------------
+
+
+Campos del Nav
+-Inicio
+-Tareas
+	-Matrículas
+		-Alumno nuevo
+		-Alumno existente
+	-Generar Certificado -> Aquí se listará los alumnos que están listos para obtener un certificado, lo demás se deja al criterio de el desarrollador.		
+	-Registrar pago -> Especificar en este controlador si es que hay un pago único. o un pago particionado, cual es el pago, para que es el pago, quein lo hace, y la cantidad.		
+	-Registrar notas -> Por sesión se manejará que profesor es, y de esa manera solo s everán las aulas, (o paquetes) con lso alumnos que el enseña. O si registra un secretario o contador, debe escoger al profesor antes de ingresar una nota.		
+	-Registrar asistencias
+		-Asitencia Docentes
+		-Asistencia ALumnos
+	-Relacionar aula -> Ësto es para crear los paquetes.		
+	-Crear horario -> REgistrar un horario
+	-Registrar Usuario
+		-Docente
+		-Administrativo
+
+-Docentes
+	-Mis aulas -> Encada uno vera los alumnos y su desempeño
+	-Mis alumnos -> En cada uno verá las notas de los alumnos
+	-Mis asistencias -> Incluye notas y sueldos que le correspoden.
+-Alumnos
+	-Mis aulas -> Compañeros y sus notas (notas está por verse)
+	-Mis asistencias -> Historial de asistencias en aulas.
+	-Mis pagos -> Ver historial de pagos y verificar si está al día.
+-Preguntas frecuentes
+	-Aquí escriban todo lo que se les ocurra >.<
+
+--------------------------------------------
+Recuerden modifican , luego: 
+git commit -a -m 'MEnsaje de mis cambios'
+(nos  epreocupen si el mensaje es demasiado grande, es mejor si lo es, así se sabe mas especificamente que cambios se han realizado).
+Y luego enviarlo al repo
+git push
+--------------------------------------------
