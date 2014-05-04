@@ -1,5 +1,4 @@
 class SecurityController < ApplicationController
-<<<<<<< HEAD
 	before_action :redirect_general, only: [:index,:login]
   def index
 
@@ -34,14 +33,5 @@ class SecurityController < ApplicationController
   		session.destroy
   		redirect_to controller: 'security', action: 'index'
   	end
-=======
-  def index
-  end
-
-  def login
-  end
-
-  def logout
->>>>>>> b760f04decf24074a58a0bad713af8d0a16fa83b
   end
 end
