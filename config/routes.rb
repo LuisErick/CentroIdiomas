@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :unica_students
+
   resources :faculties
 
   get 'profile/index'
@@ -58,8 +60,6 @@ Rails.application.routes.draw do
   resources :teachers
 
   resources :grades
-
-  resources :unica_students
 
   resources :references
 

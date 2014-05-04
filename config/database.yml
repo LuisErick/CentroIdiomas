@@ -10,7 +10,7 @@ development:
   database: CentroIdiomas_development
   pool: 5
   username: root
-  password: veinte20
+  password: 81848133
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -22,7 +22,7 @@ test:
   database: CentroIdiomas_test
   pool: 5
   username: root
-  password: veinte20
+  password: 81848133
   host: localhost
 
 production:
@@ -31,5 +31,5 @@ production:
   database: CentroIdiomas_production
   pool: 5
   username: root
-  password: veinte20
+  password: 81848133
   host: localhost
