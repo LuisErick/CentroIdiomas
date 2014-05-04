@@ -4,25 +4,32 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 #
-default: &default
-  adapter: mysql2
-  host: localhost
-  port: 3600
-  password: 'toor'
-  pool: 5
-  timeout: 5000
-
 development:
-  <<: *default
+  adapter: mysql2
+  encoding: utf8
   database: CentroIdiomas_development
+  pool: 5
+  username: root
+  password: 81848133
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *default
+  adapter: mysql2
+  encoding: utf8
   database: CentroIdiomas_test
+  pool: 5
+  username: root
+  password: 81848133
+  host: localhost
 
 production:
-  <<: *default
+  adapter: mysql2
+  encoding: utf8
   database: CentroIdiomas_production
+  pool: 5
+  username: root
+  password: 81848133
+  host: localhost

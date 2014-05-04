@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :unica_students
+
+  resources :faculties
+
   get 'profile/index'
 
   get 'security/index'
@@ -8,7 +12,7 @@ Rails.application.routes.draw do
   get 'security/logout'
 
   get 'welcome/index'
-
+  
   resources :levels
 
   resources :scores
@@ -56,8 +60,6 @@ Rails.application.routes.draw do
   resources :teachers
 
   resources :grades
-
-  resources :unica_students
 
   resources :references
 
