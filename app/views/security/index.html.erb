@@ -1,8 +1,23 @@
 
-<%= form_tag({controller: 'security', action: 'login'}, method: 'post') do %>
-<%= label_tag :username, 'Nombre de Usuario'%>
-<%= text_field_tag :username%>
-<%= label_tag :password, 'Ingrese su contraseña'%>
-<%= password_field_tag :password%>
-<%= submit_tag 'Ingresar' %>
+<h1>Login</h1>
+<div id='form_login'>
+	<%= form_tag({controller: 'security', action: 'login'}, method: 'post') do %>
+	<div class='field'>
+		<%= label_tag :username, 'Nombre de Usuario'%><br>
+		<%= text_field_tag :username%>
+	</div>
+	<div class='field'>
+		<%= label_tag :password, 'Ingrese su contraseña'%><br>	
+		<%= password_field_tag :password%>
+	</div>
+	<div class='action'>
+		<%= submit_tag 'Ingresar' %>
+	</div>
+	<% end %>
+</div>
+<br>
+<% if !@error.nil? %>
+<div id='error_explanation'>
+	<%=@error%>
+</div>
 <% end %>

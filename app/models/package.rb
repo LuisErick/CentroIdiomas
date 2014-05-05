@@ -6,5 +6,4 @@ class Package < ActiveRecord::Base
 	has_many :teacher_attendances	
 	has_many :levels, :through => :matriculation_courses
 	has_many :matriculations, :through => :matriculation_courses	
-	has_many :states, :through => :student_attendances
-end
+	has_many :states, :through => :teacher_attendances
