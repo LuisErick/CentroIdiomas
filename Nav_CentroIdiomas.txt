@@ -4,10 +4,14 @@ Aclaración
 Se está poniendo en los campos, subcampos, y subdivisiones, como si fuera alguien con los máximos permisos, luego ya con código estos permisos se vana  air discriminando, se quitarn campos para ciertos usaurios y así.. pero primero se hace para alguien de permisos máximos.
 ----------------------------------------
 ----------------------------------------
-
+ (>*)SOY LUISERICK! lo que pondré estará antecedido por un "(>*)" !.
 
 Campos del Nav
 -Inicio
+(>*)-Comienzo de clases disponibles (Una lista de fechas cercanas del inicio de nuevos cursos)
+
+(>*)
+-Institucion (algo asi como quienes somos, información del centro de idiomas, sedes, nuestra visión, misión, servicios pre-grado, post-grado yo que sé toda la informacion que necesite el "visitador") (ESTO SIN LOGEARSE)
 -Tareas
 	-Matrículas
 		-Alumno nuevo
@@ -17,23 +21,34 @@ Campos del Nav
 	-Registrar notas -> Por sesión se manejará que profesor es, y de esa manera solo s everán las aulas, (o paquetes) con lso alumnos que el enseña. O si registra un secretario o contador, debe escoger al profesor antes de ingresar una nota.		
 	-Registrar asistencias
 		-Asitencia Docentes
+
 		-Asistencia ALumnos
 	-Relacionar aula -> Ësto es para crear los paquetes.		
-	-Crear horario -> REgistrar un horario
+	-Crear horario -> REgistrar un horario (>*) Estaría bien registrar el horario relacionandolo con el profesor, ya que si recuerdas la secretaria dijo : "Los porfesores ponen sus horarios dependiendo de su disponibilidad de tiempo" (se que no debería ser asi pero lo es :( )
 	-Registrar Usuario
 		-Docente
 		-Administrativo
-
+(>*)-Deudores -> (si se ha iniciado sesión con un administrativo) se listará todos los alumnos que estén atrasados en sus pagos.
+    
 -Docentes
 	-Mis aulas -> Encada uno vera los alumnos y su desempeño
 	-Mis alumnos -> En cada uno verá las notas de los alumnos
 	-Mis asistencias -> Incluye notas y sueldos que le correspoden.
+(>*)-Mis Libros -> las secretaria nos dijo, que no hay libros establecidos, pues cada profesor trabaja con el que mejor le paresca. Habrá una opcion para subir el pdf del libro con el que trabaja y asi poder compartirlo con sus alumnos dependiendo que aula tenga.
+    
 -Alumnos
-	-Mis aulas -> Compañeros y sus notas (notas está por verse)
+	-Mis aulas -> Compañeros y sus notas (notas está por verse) ---- (>*)pues si se agregára "Libros", en el/las aulas que tenga estaría la opción de descargar el libro con que trabaja el profesor. (obviamente esto se verá cuando el alumno ya esté matriculado).
 	-Mis asistencias -> Historial de asistencias en aulas.
 	-Mis pagos -> Ver historial de pagos y verificar si está al día.
 -Preguntas frecuentes
 	-Aquí escriban todo lo que se les ocurra >.<
+(>*)-¿Qué tipo de inglés enseñan (americano o británico) ¿Cuál es el más comercial?
+(>*)-¿Entregan materiales o los libros son en pdf?
+(>*)-¿recibo algún certificado?
+(>*)-¿Qué requisitos debo tener para poder matricularme?
+(>*)-¿Cuál es el método de evaluación?
+(>*)-¿Existe un limite de faltas?¿Se peuden justificar?
+    ... no sé me acurre nada mas ...
 
 --------------------------------------------
 Recuerden modifican , luego: 
