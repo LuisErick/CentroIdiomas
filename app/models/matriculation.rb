@@ -6,5 +6,8 @@ class Matriculation < ActiveRecord::Base
 	has_many :payments
 	has_one :matriculation_exam
 	has_one :matriculation_course
-	has_one :final_grade
+	has_one :final_grade	
+	has_many :packages, :through => :matriculation_courses
+	has_many :levels, :through => :matriculation_courses	
+	has_many :teachers, :through => :matriculation_exam
 end
